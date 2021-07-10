@@ -1,0 +1,90 @@
+.App-header {
+  background-image: url(Header.png);
+  background-size: contain;
+  width: 100%;
+  height: 240px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.page {
+  background-color: #24a1a5;
+  color: white;
+  padding-left: 40px;
+  width: 100%;
+}
+
+.App-title {
+  font-size: 80px;
+  text-align: center;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.body {
+  text-align: left;
+  margin: 30px;
+  padding-top: 20px;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 40px;
+}
+
+.column {
+  float: left;
+  text-align: left;
+  margin: 10px 10px 10px 10px;
+  width: 25%;
+  font-size: 22px;
+  color: white;
+}
+
+#view {
+  margin-left: 75%;
+  margin-top: -20px;
+  font-weight: 50;
+  width: 150px;
+  text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.event {
+  background-color: whitesmoke;
+  border: 2px solid lightgray;
+}
+
+button {
+  font-size: 22px;
+  margin: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

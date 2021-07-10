@@ -1,0 +1,28 @@
+{
+  "name": "react-playground-cong-app-challenge-forked",
+  "version": "0.0.0",
+  "description": null,
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/zzloxr09mp",
+  "main": "index.js",
+  "dependencies": {
+    "druthers": "2.4.3",
+    "goober": "2.0.5",
+    "react": "16.3.2",
+    "react-carbon-datepicker": "1.0.3",
+    "react-dom": "16.3.2",
+    "react-flexbox-grid": "2.1.0",
+    "react-geolocated": "3.0.1",
+    "react-multiple-choice": "2.0.2",
+    "react-router-dom": "5.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
